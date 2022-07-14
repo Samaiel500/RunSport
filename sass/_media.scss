@@ -1,0 +1,82 @@
+@media (max-width: 1000px) {
+  .promo__header {
+    font-size: 40px;
+  }
+  .promo__subheader {
+    font-size: 20px;
+  }
+}
+@media (max-width: 974px) {
+  * {
+    padding: 0 15px 0 15px;
+  }
+  .promo__header {
+    font-size: 35px;
+  }
+  .promo__subheader {
+    font-size: 17px;
+  }
+  .consultation {
+    .title_left {
+      font-size: 25px;
+    }
+  }
+}
+@media (max-width: 840px) {
+  .header {
+    &__official {
+      span {
+        font-size: 16px;
+      }
+    }
+    &__phone {
+      font-size: 14px;
+    }
+  }
+  .consultation {
+    .title_left {
+      font-size: 25px;
+    }
+  }
+}
+
+@media (max-width: 788px) {
+  .header {
+    &__official {
+      display: none;
+    }
+  }
+  .promo {
+    &__header {
+      font-size: 30px;
+    }
+    &__subheader {
+      font-size: 14px;
+    }
+    &__link {
+      font-size: 14px;
+    }
+  }
+  .button {
+    &_main {
+      width: 250px;
+    }
+  }
+  .batter {
+    &__wraper {
+      flex-direction: column;
+      align-items: center;
+    }
+    .title {
+      font-size: 25px;
+    }
+  }
+  .consultation {
+    .consultation__dscr {
+      font-size: 15px;
+    }
+    .title_left {
+      font-size: 20px;
+    }
+  }
+}

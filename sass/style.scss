@@ -1,0 +1,21 @@
+@import "variables";
+* {
+  font-family: "Museo Sans", sans-serif;
+}
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+@import "promo";
+@import "header";
+@import "buttons";
+@import "batter";
+@import "media";
+@import "title";
+@import "consultation";
+@import "forms";
+@import "carousel";
+@import "catalog";
+@import "recall";
+@import "footer";
+@import "modal";

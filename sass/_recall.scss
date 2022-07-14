@@ -1,0 +1,28 @@
+.recall {
+  &__items {
+    display: flex;
+    margin-top: 60px;
+  }
+  &__img {
+    width: 169px;
+    height: 169px;
+    margin-right: 61px;
+  }
+  &__subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    color: #0d0d0d;
+  }
+  &__minitext {
+    font-weight: 500;
+    font-size: 14px;
+    color: #646464;
+    margin-bottom: 10px;
+  }
+  &__p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0d0d0d;
+  }
+}
